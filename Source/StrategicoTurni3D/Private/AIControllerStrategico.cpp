@@ -270,7 +270,7 @@ ATile* UAIControllerStrategico::FindBestTowerTarget(
 
         
         
-        int32 Score = (State.ControlledBy == 0) ? Dist + 5 : Dist;  // Penalizzazione +5 per le torri del Player: si preferiscono le neutrali// (costa meno conquistarne una neutra che strapparne una al Player)
+        int32 Score = (State.ControlledBy == 0) ? Dist + 5 : Dist;  // Penalizzazione +5 per le torri del Player: si preferiscono le neutrali (costa meno conquistarne una neutra che strapparne una al Player)
 
         if (Score < BestScore) // punteggio migliore di quello attuale?
         {

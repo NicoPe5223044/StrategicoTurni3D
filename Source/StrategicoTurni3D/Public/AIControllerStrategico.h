@@ -6,9 +6,6 @@
 #include "UObject/NoExportTypes.h"
 #include "AIControllerStrategico.generated.h"
 
-// ─────────────────────────────────────────────────────────────
-// Obiettivo scelto dall'AI per una singola unità
-// ─────────────────────────────────────────────────────────────
 // Obiettivo dell'AI per un singolo turno di un'unità
 UENUM()
 enum class EAIGoal : uint8
