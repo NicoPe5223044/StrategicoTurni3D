@@ -37,7 +37,7 @@ private:
     TArray<ATile*> CurrentMovementHighlights;
     TArray<ATile*> CurrentAttackHighlights;
 
-    //void HandleLeftMouseClick();  funzione vecchia
+    
     bool GetTileUnderCursor(ATile*& OutTile) const; //recupera la tile sotto al cursore
 
     void SelectUnit(AUnit* Unit); //selettore unità
